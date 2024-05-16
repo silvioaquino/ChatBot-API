@@ -1,0 +1,34 @@
+{
+    "name": "bot-zdg",
+    "version": "1.0.0",
+    "description": "bot-zdg: based on Whatsapp API",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "start:dev": "nodemon app.js",
+        "test": "echo \"Error: no test specifield\" && exit 1"
+    },
+    "keywords": [
+        "whatsapp-api",
+        "node.js"
+    ],
+    "author": "Silvio",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "ˆ0.20.0",
+        "express": "ˆ4.17.0",
+        "express-fileupload": "ˆ1.2.0",
+        "express-validator": "ˆ6.9.2",
+        "http": "0.0.1 security",
+        "mime-types": "ˆ2.1.32",
+        "mysql12": "ˆ2.3.3",
+        "qrcode": "ˆ1.4.4",
+        "request": "ˆ2.88.2",
+        "socket-io": "ˆ2.3.0",
+        "util": "ˆ0.12.4",
+        "whatsapp-web.js": "ˆ1.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "ˆ2.0.14"
+    }
+}
